@@ -1,0 +1,2 @@
+# LeetCodeGolf
+LeetCode meets CodeGolf
