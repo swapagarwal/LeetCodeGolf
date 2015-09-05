@@ -12,5 +12,5 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        a=filter(lambda i:i.isalnum(),s).lower()
+        a=[i.lower() for i in s if i.isalnum()]
         return a==a[::-1]
